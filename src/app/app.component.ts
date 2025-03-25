@@ -1,4 +1,3 @@
-
 import { Component, NgModule } from '@angular/core';
 
 @Component({
@@ -11,6 +10,7 @@ export class AppComponent {
   title = 'HelloWorld';
   imgURL = "https://www.bridgelabz.com/assets/images/BridgeLabz%20New%20Logo.svg";
   url = "https://www.bridgelabz.com";
+  userName : string = "";
 
 
   ngOnInit() : void {
